@@ -11,11 +11,11 @@ fn example {
         "some words".capitalize()
     }
 
-    /*test(lm)
+    test(lm)
 
     fn test(lm) {
         lm()
-    }*/
+    }
 
     let x = fn (a) {
         let c = 200
