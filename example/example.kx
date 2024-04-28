@@ -1,0 +1,41 @@
+package example.t.b.s as run.exe
+
+import string.string from std
+
+import std.string.wstring
+
+import Dict, List from std.collections
+
+fn example {
+    lambda lm(a, b = 200) {
+        "some words".capitalize()
+    }
+
+    /*test(lm)
+
+    fn test(lm) {
+        lm()
+    }*/
+
+    let x = fn (a) {
+        let c = 200
+        a(c)
+        a("")
+    }
+
+    x(lm)
+
+    //lm(x)
+
+    lambda lm2(a, b = 200) {
+
+    }
+
+    generator()
+
+    return x(lm2)
+}
+
+fn generator {
+    yield
+}

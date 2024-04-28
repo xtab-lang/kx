@@ -1,0 +1,14 @@
+struct String {
+	readonly     text: char*
+	readonly   length: int
+	readonly capacity: int
+
+	fn capitalize(this): this {
+	}
+}
+
+struct WString {
+	readonly     text: wchar*
+	readonly   length: int
+	readonly capacity: int
+}
