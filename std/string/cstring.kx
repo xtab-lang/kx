@@ -1,0 +1,42 @@
+struct string {
+	readonly   text: char*
+	readonly length: int
+	readonly   hash: uint
+
+	fn constructor(this, str) {
+		this.text = str.text
+		this.length = str.length
+		this.hash = math.hash(this.text, this.length)
+	}
+
+	fn constructor(this, text, length) {
+		this.text = text
+		this.length = length
+		this.hash = math.hash(text, length)
+	}
+
+	fn dispose(this) {
+		this.text = delete this.text
+		this.length = 0
+		this.hash = 0u
+	}
+
+	fn capitalize(this): String {
+
+		let b: byte = 127
+		let i: int = b  // 127
+
+		let face = '🆎' as float
+		let number: int = face  // 9786
+	}
+
+	operator fn ==(other) {
+		
+	}
+}
+
+struct wstring {
+	readonly   text: wchar*
+	readonly length: int
+	readonly   hash: uint
+} 

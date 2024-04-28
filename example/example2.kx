@@ -1,0 +1,6 @@
+fn example2(a: int8, b) {
+
+}
+
+fn example2(c, d, a = 200, ...) {
+}

@@ -1,0 +1,4 @@
+struct Dict<T, Hash = uint> {
+	readonly   length: uint
+	readonly capacity: uint
+}

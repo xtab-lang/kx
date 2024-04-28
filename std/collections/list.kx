@@ -1,0 +1,5 @@
+struct List<T> {
+	readonly    items: T*
+	readonly   length: int
+	readonly capacity: int
+}
