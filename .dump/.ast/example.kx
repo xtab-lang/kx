@@ -1,0 +1,58 @@
+// package example
+static fn example(): Void {
+    /* generic syntax */lambda lm(/* required */ a, /* default */ b);
+    lambda lm(a: int, b: int): Void {
+        struct struct_$1025$_ {
+            let a: int = 
+            let b: int = 
+            fn ()(this: example.example.lm.struct_$1025$_&): Void {
+            }
+        }
+    }
+    lambda lm(a: std.string.string&, b: int): Void {
+        struct struct_$1026$_ {
+            let a: std.string.string& = 
+            let b: int = 
+            fn ()(this: example.example.lm.struct_$1026$_&): Void {
+            }
+        }
+    }
+    /* generic syntax */lambda lm2(/* required */ a, /* default */ b);
+    lambda lm2(a: int, b: int): Void {
+        struct struct_$1029$_ {
+            let a: int = 
+            let b: int = 
+            fn ()(this: example.example.lm2.struct_$1029$_&): Void {
+            }
+        }
+    }
+    lambda lm2(a: std.string.string&, b: int): Void {
+        struct struct_$1030$_ {
+            let a: std.string.string& = 
+            let b: int = 
+            fn ()(this: example.example.lm2.struct_$1030$_&): Void {
+            }
+        }
+    }
+    /* generic syntax */static fn fn_$1024$_(/* required */ a);
+    static fn fn_$1024$_(a: lambda (a: int, b: int): Void&): Void {
+        let c: int = 
+    }
+    static fn fn_$1024$_(a: lambda (a: int, b: int): Void&): Void {
+        let c: int = 
+    }
+    let x: fn (a: lambda (a: int, b: int): Void&): Void = 
+}
+/* generic syntax *//* generator */ static async fn generator(/* required */ a);
+/* generator */ static async fn generator(a: int): example.generator.struct_$1027$_* {
+    struct struct_$1027$_ {
+        fn next_$1028$_(this: example.generator.struct_$1027$_*): Void {
+        }
+        let const next: fn (this: example.generator.struct_$1027$_*): Void = 
+        let a: int = 
+    }
+}
+static import std.string.string
+static import std.string.wstring
+static import std.collections.Dict
+static import std.collections.List

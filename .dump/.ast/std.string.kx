@@ -1,0 +1,27 @@
+// package std.string
+struct string {
+    fn capitalize(this: std.string.string*): std.string.String {
+        let b: byte = 
+        let i: int = 
+        let face: float = 
+        let number: int = 
+    }
+    let readonly text: char* = 
+    let readonly length: int = 
+    let readonly hash: uint = 
+}
+struct wstring {
+    let readonly text: wchar* = 
+    let readonly length: int = 
+    let readonly hash: uint = 
+}
+struct String {
+    let readonly text: char* = 
+    let readonly length: int = 
+    let readonly capacity: int = 
+}
+struct WString {
+    let readonly text: wchar* = 
+    let readonly length: int = 
+    let readonly capacity: int = 
+}
